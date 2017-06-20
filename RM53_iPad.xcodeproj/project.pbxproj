@@ -7,20 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5333FCD61EF9D285002A9651 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCD51EF9D285002A9651 /* Repo.swift */; };
+		5333FCD81EF9D36E002A9651 /* RelationshipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCD71EF9D36E002A9651 /* RelationshipTableViewController.swift */; };
+		5333FCE21EF9D9F8002A9651 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCDD1EF9D9F8002A9651 /* CustomCollectionViewCell.swift */; };
+		5333FCE31EF9D9F8002A9651 /* MasterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5333FCDE1EF9D9F8002A9651 /* MasterCollectionViewCell.xib */; };
+		5333FCE41EF9D9F8002A9651 /* CustomCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCDF1EF9D9F8002A9651 /* CustomCollectionViewCell2.swift */; };
+		5333FCE51EF9D9F8002A9651 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5333FCE01EF9D9F8002A9651 /* CustomCollectionViewCell.xib */; };
+		5333FCE61EF9D9F8002A9651 /* CustomCollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5333FCE11EF9D9F8002A9651 /* CustomCollectionViewCell2.xib */; };
+		5333FCE81EF9DA20002A9651 /* MasterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCE71EF9DA20002A9651 /* MasterCollectionViewCell.swift */; };
+		5333FCEA1EF9DC0D002A9651 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333FCE91EF9DC0D002A9651 /* MeetingViewController.swift */; };
 		53B431D31EF89BCC00951E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431D21EF89BCC00951E6C /* AppDelegate.swift */; };
 		53B431D81EF89BCC00951E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B431D61EF89BCC00951E6C /* Main.storyboard */; };
 		53B431DA1EF89BCC00951E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B431D91EF89BCC00951E6C /* Assets.xcassets */; };
 		53B431DD1EF89BCC00951E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B431DB1EF89BCC00951E6C /* LaunchScreen.storyboard */; };
 		53B431E71EF89CBC00951E6C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E41EF89CBC00951E6C /* DetailViewController.swift */; };
 		53B431E81EF89CBC00951E6C /* SplitViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */; };
-		53B431E91EF89CBC00951E6C /* SelectColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */; };
 		53B431EB1EF89FC700951E6C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B431EA1EF89FC700951E6C /* Login.storyboard */; };
 		53B431EE1EF8A14B00951E6C /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431EC1EF8A14B00951E6C /* UIViewGradient.swift */; };
 		53B431EF1EF8A14B00951E6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431ED1EF8A14B00951E6C /* LoginViewController.swift */; };
-		53B431F11EF8A18A00951E6C /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431F01EF8A18A00951E6C /* CommonHelper.swift */; };
+		53B431F51EF9CF4E00951E6C /* Company.json in Resources */ = {isa = PBXBuildFile; fileRef = 53B431F41EF9CF4E00951E6C /* Company.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5333FCD51EF9D285002A9651 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		5333FCD71EF9D36E002A9651 /* RelationshipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationshipTableViewController.swift; sourceTree = "<group>"; };
+		5333FCDD1EF9D9F8002A9651 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		5333FCDE1EF9D9F8002A9651 /* MasterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterCollectionViewCell.xib; sourceTree = "<group>"; };
+		5333FCDF1EF9D9F8002A9651 /* CustomCollectionViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell2.swift; sourceTree = "<group>"; };
+		5333FCE01EF9D9F8002A9651 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		5333FCE11EF9D9F8002A9651 /* CustomCollectionViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell2.xib; sourceTree = "<group>"; };
+		5333FCE71EF9DA20002A9651 /* MasterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCollectionViewCell.swift; sourceTree = "<group>"; };
+		5333FCE91EF9DC0D002A9651 /* MeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
 		53B431CF1EF89BCC00951E6C /* RM53_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RM53_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B431D21EF89BCC00951E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53B431D71EF89BCC00951E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,11 +46,10 @@
 		53B431DE1EF89BCC00951E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53B431E41EF89CBC00951E6C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewSupport.swift; sourceTree = "<group>"; };
-		53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorTableViewController.swift; sourceTree = "<group>"; };
 		53B431EA1EF89FC700951E6C /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		53B431EC1EF8A14B00951E6C /* UIViewGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
 		53B431ED1EF8A14B00951E6C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		53B431F01EF8A18A00951E6C /* CommonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		53B431F41EF9CF4E00951E6C /* Company.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Company.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,18 +82,26 @@
 		53B431D11EF89BCC00951E6C /* RM53_iPad */ = {
 			isa = PBXGroup;
 			children = (
-				53B431F01EF8A18A00951E6C /* CommonHelper.swift */,
+				5333FCE91EF9DC0D002A9651 /* MeetingViewController.swift */,
+				5333FCDD1EF9D9F8002A9651 /* CustomCollectionViewCell.swift */,
+				5333FCDE1EF9D9F8002A9651 /* MasterCollectionViewCell.xib */,
+				5333FCDF1EF9D9F8002A9651 /* CustomCollectionViewCell2.swift */,
+				5333FCE01EF9D9F8002A9651 /* CustomCollectionViewCell.xib */,
+				5333FCE11EF9D9F8002A9651 /* CustomCollectionViewCell2.xib */,
+				53B431F41EF9CF4E00951E6C /* Company.json */,
 				53B431EC1EF8A14B00951E6C /* UIViewGradient.swift */,
 				53B431ED1EF8A14B00951E6C /* LoginViewController.swift */,
 				53B431E41EF89CBC00951E6C /* DetailViewController.swift */,
 				53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */,
-				53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */,
+				5333FCD71EF9D36E002A9651 /* RelationshipTableViewController.swift */,
+				5333FCD51EF9D285002A9651 /* Repo.swift */,
 				53B431D21EF89BCC00951E6C /* AppDelegate.swift */,
 				53B431D61EF89BCC00951E6C /* Main.storyboard */,
 				53B431D91EF89BCC00951E6C /* Assets.xcassets */,
 				53B431DB1EF89BCC00951E6C /* LaunchScreen.storyboard */,
 				53B431DE1EF89BCC00951E6C /* Info.plist */,
 				53B431EA1EF89FC700951E6C /* Login.storyboard */,
+				5333FCE71EF9DA20002A9651 /* MasterCollectionViewCell.swift */,
 			);
 			path = RM53_iPad;
 			sourceTree = "<group>";
@@ -141,10 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B431F51EF9CF4E00951E6C /* Company.json in Resources */,
 				53B431EB1EF89FC700951E6C /* Login.storyboard in Resources */,
+				5333FCE61EF9D9F8002A9651 /* CustomCollectionViewCell2.xib in Resources */,
 				53B431DD1EF89BCC00951E6C /* LaunchScreen.storyboard in Resources */,
 				53B431DA1EF89BCC00951E6C /* Assets.xcassets in Resources */,
+				5333FCE31EF9D9F8002A9651 /* MasterCollectionViewCell.xib in Resources */,
 				53B431D81EF89BCC00951E6C /* Main.storyboard in Resources */,
+				5333FCE51EF9D9F8002A9651 /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,13 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5333FCD61EF9D285002A9651 /* Repo.swift in Sources */,
 				53B431EF1EF8A14B00951E6C /* LoginViewController.swift in Sources */,
+				5333FCEA1EF9DC0D002A9651 /* MeetingViewController.swift in Sources */,
+				5333FCE41EF9D9F8002A9651 /* CustomCollectionViewCell2.swift in Sources */,
 				53B431E71EF89CBC00951E6C /* DetailViewController.swift in Sources */,
-				53B431E91EF89CBC00951E6C /* SelectColorTableViewController.swift in Sources */,
+				5333FCE81EF9DA20002A9651 /* MasterCollectionViewCell.swift in Sources */,
+				5333FCE21EF9D9F8002A9651 /* CustomCollectionViewCell.swift in Sources */,
 				53B431E81EF89CBC00951E6C /* SplitViewSupport.swift in Sources */,
 				53B431EE1EF8A14B00951E6C /* UIViewGradient.swift in Sources */,
 				53B431D31EF89BCC00951E6C /* AppDelegate.swift in Sources */,
-				53B431F11EF8A18A00951E6C /* CommonHelper.swift in Sources */,
+				5333FCD81EF9D36E002A9651 /* RelationshipTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,7 +49,7 @@ extension UISplitViewController: UISplitViewControllerDelegate {
     
     public func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
         if let navController = primaryViewController as? UINavigationController {
-            if let controller = navController.topViewController as? SelectColorTableViewController {
+            if let controller = navController.topViewController as? RelationshipTableViewController {
                 return controller.collapseDetailViewController
             }
         }
