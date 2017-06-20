@@ -1,6 +1,6 @@
 import UIKit
 
-class ColorViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     var color = Color(displayName: "Gray", color: UIColor.gray)
     

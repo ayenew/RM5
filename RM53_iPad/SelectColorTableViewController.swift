@@ -36,19 +36,19 @@ class SelectColorTableViewController: UITableViewController {
         if segue.identifier == "show_detail_segue_id" {
             
             // colorViewController should never be assigned to nil !!!
-            var colorViewController: ColorViewController!
+            var colorViewController: DetailViewController!
             
             // with help of adaptive segue we can support all devices
             if let colorNavigationController = segue.destination as? UINavigationController {
 
                 // works on devices where UISplitViewController is implemented
-                colorViewController = colorNavigationController.topViewController as! ColorViewController
+                colorViewController = colorNavigationController.topViewController as! DetailViewController
                 colorViewController.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 colorViewController.navigationItem.leftItemsSupplementBackButton = true
             } else {
 
                 // works for iPhone on ios7, where UISplitViewController is not implemented
-                colorViewController = segue.destination as! ColorViewController
+                colorViewController = segue.destination as! DetailViewController
             }
             // this is common part, where one can configure detail view
             // segue provides a new instance of detail view everytime

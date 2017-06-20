@@ -53,7 +53,7 @@
         <!--White Color-->
         <scene sceneID="7O0-wB-vKV">
             <objects>
-                <viewController id="NkI-Lr-OBU" customClass="ColorViewController" customModule="RM53_iPad" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NkI-Lr-OBU" customClass="DetailViewController" customModule="RM53_iPad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6BH-ea-gqs"/>
                         <viewControllerLayoutGuide type="bottom" id="CNl-TW-t6m"/>
@@ -147,7 +147,7 @@
         <!--Split View Controller-->
         <scene sceneID="LoX-BH-ld3">
             <objects>
-                <splitViewController id="osL-wV-eP2" sceneMemberID="viewController">
+                <splitViewController storyboardIdentifier="splitVc" id="osL-wV-eP2" sceneMemberID="viewController">
                     <connections>
                         <segue destination="jAQ-t2-1sc" kind="relationship" relationship="detailViewController" id="ACc-af-bb8"/>
                         <segue destination="RX1-Uc-m2e" kind="relationship" relationship="masterViewController" id="bG1-Pt-Nc2"/>
@@ -197,6 +197,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t5s-wh-7pg"/>
+        <segue reference="ACc-af-bb8"/>
     </inferredMetricsTieBreakers>
 </document>
