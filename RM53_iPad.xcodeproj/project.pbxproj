@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		53B431D31EF89BCC00951E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431D21EF89BCC00951E6C /* AppDelegate.swift */; };
-		53B431D51EF89BCC00951E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431D41EF89BCC00951E6C /* ViewController.swift */; };
 		53B431D81EF89BCC00951E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B431D61EF89BCC00951E6C /* Main.storyboard */; };
 		53B431DA1EF89BCC00951E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B431D91EF89BCC00951E6C /* Assets.xcassets */; };
 		53B431DD1EF89BCC00951E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B431DB1EF89BCC00951E6C /* LaunchScreen.storyboard */; };
+		53B431E71EF89CBC00951E6C /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E41EF89CBC00951E6C /* ColorViewController.swift */; };
+		53B431E81EF89CBC00951E6C /* SplitViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */; };
+		53B431E91EF89CBC00951E6C /* SelectColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53B431CF1EF89BCC00951E6C /* RM53_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RM53_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B431D21EF89BCC00951E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53B431D41EF89BCC00951E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53B431D71EF89BCC00951E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53B431D91EF89BCC00951E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53B431DC1EF89BCC00951E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53B431DE1EF89BCC00951E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B431E41EF89CBC00951E6C /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewSupport.swift; sourceTree = "<group>"; };
+		53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectColorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		53B431D11EF89BCC00951E6C /* RM53_iPad */ = {
 			isa = PBXGroup;
 			children = (
+				53B431E41EF89CBC00951E6C /* ColorViewController.swift */,
+				53B431E51EF89CBC00951E6C /* SplitViewSupport.swift */,
+				53B431E61EF89CBC00951E6C /* SelectColorTableViewController.swift */,
 				53B431D21EF89BCC00951E6C /* AppDelegate.swift */,
-				53B431D41EF89BCC00951E6C /* ViewController.swift */,
 				53B431D61EF89BCC00951E6C /* Main.storyboard */,
 				53B431D91EF89BCC00951E6C /* Assets.xcassets */,
 				53B431DB1EF89BCC00951E6C /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53B431D51EF89BCC00951E6C /* ViewController.swift in Sources */,
+				53B431E71EF89CBC00951E6C /* ColorViewController.swift in Sources */,
+				53B431E91EF89CBC00951E6C /* SelectColorTableViewController.swift in Sources */,
+				53B431E81EF89CBC00951E6C /* SplitViewSupport.swift in Sources */,
 				53B431D31EF89BCC00951E6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				53B431E31EF89BCC00951E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
