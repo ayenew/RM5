@@ -16,21 +16,21 @@
                      "secondary": "Last First"
                      },
                      "alerts": {
-                     "title": "YTD Alerts",
+                     "title": "Alerts",
                      "subTitle": "Alerts Revenue",
                      "alert": "6"
                      },
                      "notifications": {
-                     "title": "YTD Revenue",
-                     "subTitle": "YTD Revenue",
+                     "title": "Notifications",
+                     "subTitle": "Overdraft",
                      "overdraft": "6",
                      "outstandingBalance": "3",
                      "maturingLoan": "2",
                      "callPlan": "2"
                      },
                      "callFrequency": {
-                     "title": "YTD Revenue",
-                     "subTitle": "YTD Revenue"
+                     "title": "Call Frequency",
+                     "subTitle": "Next Call Due"
                      },
                      "yearTodate": "5",
                      "nextCall": "10/11/2017",
@@ -54,13 +54,13 @@
                      "nonCommercial": "1000"
                      },
                      "depositRevenue": {
-                     "title": "YTD Revenue",
-                     "subTitle": "YTD Revenue",
+                     "title": "Deposit Revenue",
+                     "subTitle": "Treasury Mgmt",
                      "ytd": "1000"
                      },
                      "depositBalance": {
-                     "title": "YTD Revenue",
-                     "subTitle": "YTD Revenue",
+                     "title": "Deposit Balance",
+                     "subTitle": "Total Available Bal.",
                      "total": "1000"
                      }
                      },

@@ -14,6 +14,8 @@ class DetailViewController: UICollectionViewController, UISplitViewControllerDel
         self.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
         collectionView?.register(UINib(nibName: "CustomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "card")
         collectionView?.register(UINib(nibName: "CustomCollectionViewCell2", bundle: nil), forCellWithReuseIdentifier: "card2")
+        collectionView?.register(UINib(nibName: "CustomCollectionViewCell3", bundle: nil), forCellWithReuseIdentifier: "card3")
+        collectionView?.register(UINib(nibName: "CustomCollectionViewCell4", bundle: nil), forCellWithReuseIdentifier: "card4")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,7 +48,29 @@ class DetailViewController: UICollectionViewController, UISplitViewControllerDel
             indexRowData = company["notifications"] as! [String : Any]
         case 1:
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card2", for: indexPath) as! CustomCollectionViewCell2
+            indexRowData = company["depositBalance"] as! [String : Any]
+        case 2:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card3", for: indexPath) as! CustomCollectionViewCell3
+            indexRowData = company["depositRevenue"] as! [String : Any]
+        case 3:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card4", for: indexPath) as! CustomCollectionViewCell4
+            indexRowData = company["callFrequency"] as! [String : Any]
+        case 4:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card2", for: indexPath) as! CustomCollectionViewCell2
             indexRowData = company["alerts"] as! [String : Any]
+        case 5:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card3", for: indexPath) as! CustomCollectionViewCell3
+            indexRowData = company["depositRevenue"] as! [String : Any]
+        case 6:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card4", for: indexPath) as! CustomCollectionViewCell4
+            indexRowData = company["callFrequency"] as! [String : Any]
+        case 7:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card2", for: indexPath) as! CustomCollectionViewCell2
+            indexRowData = company["alerts"] as! [String : Any]
+        case 8:
+            cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card3", for: indexPath) as! CustomCollectionViewCell3
+            indexRowData = company["depositRevenue"] as! [String : Any]
+
         default :
             cell = collectionView.dequeueReusableCell(withReuseIdentifier: "card", for: indexPath) as! CustomCollectionViewCell
             

@@ -17,6 +17,9 @@ struct Repo {
                         c["zip"] = aCompany["zip"] as! String
                         c["notifications"] = aCompany["notifications"] as! [String:Any]
                         c["alerts"] = aCompany["alerts"] as! [String:Any]
+                        c["depositRevenue"] = aCompany["depositRevenue"] as! [String:Any]
+                        c["callFrequency"] = aCompany["callFrequency"] as! [String:Any]
+                        c["depositBalance"] = aCompany["depositBalance"] as! [String:Any]
                         relationshipRepo.append(c)
                     }
                 } catch {}

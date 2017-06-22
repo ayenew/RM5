@@ -84,6 +84,7 @@
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.39573919769999999" green="0.56078431370000004" blue="0.098039215690000001" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.9169309139251709" green="0.97982805967330933" blue="0.99817723035812378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="kFe-9D-ZN6" firstAttribute="leading" secondItem="bkV-a9-SOq" secondAttribute="leading" constant="20" id="5Kn-t3-3tA"/>
                                     <constraint firstItem="vjq-gj-Fdp" firstAttribute="trailing" secondItem="Irn-hJ-oRy" secondAttribute="trailing" id="Bp8-sB-Rrh"/>
